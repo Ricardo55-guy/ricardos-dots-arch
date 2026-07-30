@@ -87,7 +87,7 @@ output * bg ~/Pictures/Wallpapers/arch.jpg fill
     bindsym $mod+w exec "firefox
 
     # Open your file manager
-    bindsym $mod+e exec dolphin 
+    bindsym $mod+e exec nautilus 
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.

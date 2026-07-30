@@ -1,3 +1,3 @@
 # ricardos-dots-arch
 My FreeBSD dotfiles, but ported to Arch Linux.
-This is not done yet it is in testting
+This is not done yet it is in testing

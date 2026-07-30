@@ -1,6 +1,6 @@
 #!/bin/sh
 swaylock \
-    --image ~/Pictures/Wallpapers/ \
+    --image ~/Pictures/Wallpapers/arch.jpg \
     --scaling fill \
     --indicator-idle-visible \
     --indicator-radius 100 \

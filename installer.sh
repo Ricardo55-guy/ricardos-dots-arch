@@ -12,6 +12,8 @@ cd ~/ricardos-dots-arch
 yay
 yay -Syu sway swaylock swaybg wofi autotiling firefox nautilus git acpi foot fish ufetch-git ttf-dejavu-nerd swayidle wmenu grim
 
+sudo pacman -S xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-wlr
+
 mkdir -p ~/.config/sway
 cp -r config ~/.config/sway/
 cp -r scripts ~/.config/sway/

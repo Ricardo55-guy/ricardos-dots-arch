@@ -10,7 +10,7 @@ makepkg -si
 cd ~/ricardos-dots-arch
 
 yay
-yay -Syu sway swaylock wofi firefox nautilus git foot fish ufetch-git ttf-dejavu-nerd swayidle wmenu grim
+yay -Syu sway swaylock wofi firefox nautilus git acpi foot fish ufetch-git ttf-dejavu-nerd swayidle wmenu grim
 
 mkdir -p ~/.config/sway
 cp -r config ~/.config/sway/

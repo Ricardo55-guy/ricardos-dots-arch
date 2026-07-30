@@ -273,3 +273,5 @@ bindswitch --reload lid:on exec ~/.config/sway/scripts/lock.sh
 exec swayidle -w \
     before-sleep '~/.config/sway/scripts/lock.sh' \
     timeout 300 '~/.config/sway/scripts/lock.sh'
+
+exec_always autotiling

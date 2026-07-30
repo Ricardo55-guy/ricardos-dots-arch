@@ -3,9 +3,9 @@
 exec mako
 
 default_border pixel 3
-client.focused          #f62b5a #f62b5a #ffffff #f62b5a #f62b5a
-client.focused_inactive #7a1530 #7a1530 #e0e0e0 #7a1530 #7a1530
-client.unfocused        #330a15 #330a15 #808080 #330a15 #330a15
+client.focused          #178ad1 #178ad1 #ffffff #178ad1 #178ad1
+client.focused_inactive #178ad1 #178ad1 #e0e0e0 #178ad1 #178ad1
+client.unfocused        #587380 #587380 #808080 #587380 #587380
 
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
@@ -28,7 +28,7 @@ set $menu "wmenu-run -N 1a000055 -n e0e0e0 -M 1a000055 -m cc0000 -S cc000099 -s 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/local/share/backgrounds/sway/)
-output * bg ~/Pictures/Wallpapers/flowers.jpg fill
+output * bg ~/Pictures/Wallpapers/arch.jpg fill
 #
 # Example configuration:
 #
@@ -87,7 +87,7 @@ output * bg ~/Pictures/Wallpapers/flowers.jpg fill
     bindsym $mod+w exec "firefox
 
     # Open your file manager
-    bindsym $mod+e exec "nautilus" 
+    bindsym $mod+e exec dolphin 
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -251,14 +251,15 @@ bar {
     status_command ~/.config/sway/scripts/statusbar.sh
 
     colors {
-        background #1a0000d9
-        statusline #e0e0e0ff
-        separator  #66000000
+        background #0d1b2a
+        statusline #e0e1dd
+        separator #415a77
 
-        focused_workspace  #660000ff #660000ff #ffffffff
-        active_workspace   #330000ff #330000ff #e0e0e0ff
-        inactive_workspace #00000000 #00000000 #808080ff
-        urgent_workspace   #aa0000ff #aa0000ff #ffffffff
+        #                  border  bg      text
+        focused_workspace  #00b4d8 #0077b6 #ffffff
+        active_workspace   #0077b6 #03045e #e0e1dd
+        inactive_workspace #1b263b #1b263b #8d99ae
+        urgent_workspace   #e63946 #e63946 #ffffff
     }
 }
 

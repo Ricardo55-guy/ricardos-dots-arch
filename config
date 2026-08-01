@@ -244,22 +244,22 @@ bindsym $mod+r mode "resize"
 # Status Bar:
 #
 # Read `man 5 sway-bar` for more information about this section.
-bar {
-    swaybar_command swaybar
-    position top
-    pango_markup enabled
-    status_command ~/.config/sway/scripts/statusbar.sh
-
-    colors {
-        background #0d1b2a
-        statusline #e0e1dd
-        separator #415a77
-
-        #                  border  bg      text
-        focused_workspace  #00b4d8 #0077b6 #ffffff
-        active_workspace   #0077b6 #03045e #e0e1dd
-        inactive_workspace #1b263b #1b263b #8d99ae
-        urgent_workspace   #e63946 #e63946 #ffffff
+#bar {
+#    swaybar_command swaybar
+#    position top
+#    pango_markup enabled
+#    status_command ~/.config/sway/scripts/statusbar.sh
+#
+#    colors {
+#        background #0d1b2a
+#        statusline #e0e1dd
+#        separator #415a77
+#
+#        #                  border  bg      text
+#        focused_workspace  #00b4d8 #0077b6 #ffffff
+#        active_workspace   #0077b6 #03045e #e0e1dd
+#        inactive_workspace #1b263b #1b263b #8d99ae
+#        urgent_workspace   #e63946 #e63946 #ffffff
     }
 }
 

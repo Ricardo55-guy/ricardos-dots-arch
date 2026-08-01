@@ -23,6 +23,8 @@ cp arch.jpg ~/Pictures/Wallpapers/
 cp -r fish ~/.config/
 cp -r foot ~/.config/
 
+sudo pacman -R swaybar
+
 echo "==========================================================="
 echo "                  Installation complete!                   "
 echo "  You can launch your desktop environment by typing: sway  "
